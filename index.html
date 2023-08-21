@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Translation App</title>
-</head>
-<body>
-    <h1>Text Translation</h1>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+        <div class="heading">Translate English to Starwars Sith language.</div>
+    </nav>
+    <main>
+    <textarea placeholder="Enter text here for Translation..." rows="5" cols="100" id="inputText"></textarea><br>
+    <button id="btn-translate" class="btn-primary">Translate</button>
+    <button class="btn-primary" id="clear">Clear</button><br><br>
+    <h5>Translation will come here 👇</h5>
+    <textarea id="outputDiv" rows="5" cols="100"></textarea>
+</main> 
+    <footer class="footer">
+      <p class="footer-text">
+        English to Starwars Sith language translator.
+      </p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
 </html>
